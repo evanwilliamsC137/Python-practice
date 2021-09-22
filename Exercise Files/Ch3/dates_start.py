@@ -35,7 +35,11 @@ def main():
 
   t = datetime.time(datetime.now())
   print("The current time is ", t)
- 
+
+  print( "The hour of day is ", t.hour)
+  print( "The minute of the hour is ", t.minute)
+  print( "The microsecond is ", t.microsecond)
+
 
   
 if __name__ == "__main__":
